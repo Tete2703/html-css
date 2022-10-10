@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        caption {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        tr, td, th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .cnome {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome"> 
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr>
+                    <td>Maria Fernanda</td>
+                    <td>Feminino</td>
+                    <td>25 anos</td>
+                    <td>Médica</td>
+                </tr>
+                <tr>
+                    <td>Maria Luiza</td>
+                    <td>Feminino</td>
+                    <td>15 anos</td>
+                    <td>Estudante</td>
+                </tr>
+                <tr>
+                    <td>Marcos Antonio</td>
+                    <td>Masculino</td>
+                    <td>32 anos</td>
+                    <td>Advogado</td>
+                </tr>
+                <tr>
+                    <td>Murilo Feitosa</td>
+                    <td>Masculino</td>
+                    <td>25 anos</td>
+                    <td>designer</td>
+                </tr>
+            </tbody>
+        
+    </table>
+</body>
+</html>
