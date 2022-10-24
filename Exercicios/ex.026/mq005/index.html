@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burger" class="material-icons md-24" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">História</a></li>
+                <li><a href="#">Seviços</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Nordeste</h2>
+            <p>
+                A Região Nordeste é uma das cinco regiões do Brasil definidas pelo Instituto Brasileiro de Geografia e Estatística (IBGE) em 1969. Possui área equivalente à da Mongólia ou do estado do Amazonas, população equivalente à da África do Sul e um IDH alto, comparável com África do Sul. Em comparação com as outras regiões brasileiras, tem a segunda maior população, o terceiro maior território, o segundo maior colégio eleitoral (36 727 931 eleitores em 2010), o menor IDH (2017) e o terceiro maior PIB (2018).</p>
+
+            <p>É a região brasileira que possui o maior número de estados (nove no total): Alagoas, Bahia, Ceará, Maranhão, Paraíba, Piauí, Pernambuco, Rio Grande do Norte e Sergipe. Em função de suas diferentes características físicas, a região é dividida em quatro sub-regiões: meio-norte, sertão, agreste e zona da mata, tendo níveis muito variados de desenvolvimento humano ao longo de suas zonas geográficas.</p>
+
+            <p> A região Nordeste foi o berço da colonização europeia no país, uma vez que nela ocorreu a descoberta do Brasil e se consolidou a colonização exploratória que consistia, em suma, na extração do pau-brasil (ou pau-de-pernambuco), cuja tinta da madeira era utilizada para tingir as roupas da nobreza do Velho Mundo. Com a criação das capitanias hereditárias em 1534, foi fundada a vila de Olinda, e anos mais tarde deu-se o início da construção da primeira capital do Brasil, Salvador, para abrigar o governo-geral. O Nordeste foi também o centro financeiro do Brasil até meados do século XVIII, uma vez que a Capitania de Pernambuco foi o principal centro produtivo da colônia e Recife a cidade de maior importância econômica.
+            </p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>
